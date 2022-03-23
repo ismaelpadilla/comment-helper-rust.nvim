@@ -23,5 +23,6 @@ Plug 'ismaelpadilla/comment-helper-rust.nvim'
 local ch = require("comment_helper")
 local ch_rust = require("comment_helper_rust")
 
-ch.add("rust", "function_item", ch_rust.function_item, {})
+ch.set_ignored_types("rust", {"source_file"})
+ch.add("rust", "function_item", ch_rust.function_item)
 ```
