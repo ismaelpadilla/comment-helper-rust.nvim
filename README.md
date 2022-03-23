@@ -1,7 +1,7 @@
 Add (at the moment, very basic) support for documenting Rust using [comment-helper](https://github.com/ismaelpadilla/comment-helper.nvim/).
 
 <p align="center">
-  <img alt="Preview" src="https://i.imgur.com/EzyFgtK.gif">
+  <img alt="Preview" src="https://i.imgur.com/7k7ofRb.gif">
 </p>
 
 ### Features
